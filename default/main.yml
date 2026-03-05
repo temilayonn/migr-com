@@ -1,1 +1,1 @@
-artisan_command: config:clear
+artisan_command: migrate --path=database/migrations/2026_02_23_221502_add_vat_to_credit_transactions_table.php
