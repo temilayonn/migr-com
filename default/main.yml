@@ -1,1 +1,1 @@
-artisan_command: queue:restart
+artisan_command: domain:refreshPrice
