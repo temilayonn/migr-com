@@ -1,1 +1,1 @@
-artisan_command: migrate --force --path=database/migrations/2026_02_23_2215_add_vat_to_credit_transactions_table.php
+artisan_command: migrate --force --path=database/migrations/2026_02_23_151127_add_vat_to_payments_table.php
