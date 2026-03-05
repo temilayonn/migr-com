@@ -18,6 +18,7 @@ artisan_command: migrate --force
 ```
 
 **Multiple Commands:**
+```yaml
 artisan_command:
 	- migrate --force
 	- db:seed --class=UserSeeder
