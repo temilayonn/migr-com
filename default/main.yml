@@ -1,1 +1,1 @@
-artisan_command: test
+artisan_command: domain:refreshPrice
