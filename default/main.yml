@@ -1,3 +1,2 @@
 artisan_command: 
   - config:cache
-  - cache:clear
