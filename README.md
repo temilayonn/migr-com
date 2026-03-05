@@ -13,14 +13,18 @@ This repository enables developers to securely request the execution of approved
 You may specify either a single command or a list of commands in `main.yml`:
 
 **Single Command:**
+```yaml
 artisan_command: migrate --force
+```
 
 **Multiple Commands:**
 artisan_command:
 	- migrate --force
 	- db:seed --class=UserSeeder
-
+```
 Commands are executed in the order listed.
+
+---
 
 ##  Rules & Allowed Changes
 - **Only modify:** The `artisan_command` variable in `main.yml`.
@@ -29,12 +33,16 @@ Commands are executed in the order listed.
 - **Disallowed/invalid commands:** Will cause the job to fail with a clear error.
 - **Multiple commands:** Will run sequentially on the target server.
 
+---
+
 ##  Execution Flow
 1. Developer updates `main.yml` with desired command(s).
 2. Changes are pushed to the repository.
 3. The Dev runs the automation pipeline.
 4. Commands are validated and executed on the Laravel server.
 5. All executions are logged and auditable.
+
+---
 
 ##  Security & Best Practices
 - **Never add dangerous commands** (e.g., `down`, `up`, `env`) to the allowed list.
