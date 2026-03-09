@@ -5,3 +5,4 @@ artisan_command:
   - app:customer-index  --year=2023
   - app:customer-index  --year=2022
   - app:customer-index  --year=2021
+  - app:compute-valid-customer-details
