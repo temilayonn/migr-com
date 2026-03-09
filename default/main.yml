@@ -1,7 +1,7 @@
 artisan_command: 
-  - app:customer-index --year=2026
-  - app:customer-index --year=2025
-  - app:customer-index --year=2024
-  - app:customer-index --year=2023
-  - app:customer-index --year=2022
-  - app:customer-index --year=2021
+  - app:customer-index --force --year=2026
+  - app:customer-index --force --year=2025
+  - app:customer-index --force --year=2024
+  - app:customer-index --force --year=2023
+  - app:customer-index --force --year=2022
+  - app:customer-index --force --year=2021
