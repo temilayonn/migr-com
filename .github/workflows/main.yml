@@ -16,4 +16,4 @@ jobs:
           curl -X POST \
           -H "Authorization: Token ${{ secrets.SEMAPHORE_API_TOKEN }}" \
           -H "Content-Type: application/json" \
-          https://semaphore.bumpa.xyz/api/integrations/ncurdnw6av6yu7e5
+          http://35.181.33.202:3000/api/integrations/ncurdnw6av6yu7e5
