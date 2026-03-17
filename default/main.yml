@@ -1,2 +1,2 @@
 artisan_command: 
-  - app:compute-valid-customer-details
+  - config:cache
